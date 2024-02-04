@@ -10,18 +10,18 @@ class handwrite_generator(object):
     def __init__(self):
         self.template_params = {
             "rate": 4,  # 图片缩放比例
-            "default_paper_x": 667,  # 默认纸张宽度 px
-            "default_paper_y": 945,  # 默认纸张高度 px
+            "default_paper_x": 773,  # 默认纸张宽度 px
+            "default_paper_y": 1109,  # 默认纸张高度 px
             "default_font": BasicTools.get_ttf_file_path()[1][0],  # 默认字体文件路径
             "default_img_output_path": "outputs",  # 默认图片输出路径
             "default_font_size": 30,  # 默认字体大小
-            "default_line_spacing": 70,  # 默认行间距 px
+            "default_line_spacing": 50,  # 默认行间距 px
             "default_top_margin": 10,  # 默认顶部留白 px
             "default_bottom_margin": 10,  # 默认底部留白 px
             "default_left_margin": 10,  # 默认左边留白 px
-            "default_right_margin": 10,  # 默认右边留白 px
-            "default_word_spacing": 1,  # 默认字间距 px
-            "default_line_spacing_sigma": 1,  # 默认行间距随机扰动 px
+            "default_right_margin": 20,  # 默认右边留白 px
+            "default_word_spacing": 0,  # 默认字间距 px
+            "default_line_spacing_sigma": 1.8,  # 默认行间距随机扰动 px
             "default_font_size_sigma": 1,  # 默认字体大小随机扰动 px
             "default_word_spacing_sigma": 1,  # 默认字间距随机扰动 px
             "default_perturb_x_sigma": 1,  # 默认笔画横向偏移随机扰动 px
