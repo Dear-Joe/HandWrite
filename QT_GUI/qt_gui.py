@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(1110, 645)
+        Form.resize(1300, 1100)
         self.horizontalLayout_14 = QtWidgets.QHBoxLayout(Form)
         self.horizontalLayout_14.setObjectName("horizontalLayout_14")
         self.Display = QtWidgets.QVBoxLayout()
